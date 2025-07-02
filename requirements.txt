@@ -11,15 +11,14 @@
 # langchain==0.2.2
 
 streamlit
-python-dotenv
 pymupdf
-pillow
-numpy
-scikit-learn
-torch
-transformers
+python-dotenv
 sentence-transformers
-groq
+scikit-learn
 langchain
-pytesseract
 pillow
+groq
+pytesseract==0.3.10  # Pure Python wrapper
+tesserocr==2.6.0  # Alternative that works better in cloud
+pdf2image
+opencv-python-headless
