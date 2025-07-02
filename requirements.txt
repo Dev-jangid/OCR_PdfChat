@@ -21,8 +21,5 @@ transformers
 sentence-transformers
 groq
 langchain
-# pytesseract
+tesseract
 pillow
-libgl1
-tesseract-ocr
-poppler-utils
